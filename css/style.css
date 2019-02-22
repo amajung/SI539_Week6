@@ -38,13 +38,22 @@ header {
 
 .sidenav a.active {
   border-bottom: 2px solid black;
-  width: 75px;
+  left: 10px;
+  width: 120px;
+}
+
+/*--Body--*/
+#container {
+  min-height: 100%
 }
 
 /*--Content--*/
 main {
   position: absolute;
   left:178px; top:92px; right:0; bottom:0;
+
+  overflow: auto;
+  padding-bottom: 100px;
 }
 
 img {
@@ -54,9 +63,10 @@ img {
 
 /*--Footer--*/
 footer {
+  background: white;
   position: fixed;
   bottom: 0px;
   margin-bottom: 0px;
-  width:100%;
+  width: 100%;
   text-align: center;
 }
